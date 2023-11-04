@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.hero{
+    height:100vh;
+    width: 100%;
+    background-color: #eff4fd;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+.logo{
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(red, green, blue);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: black;
+    position: relative;
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.2s ease;
+}
+nav ul li a:hover{
+    color:rgb(192, 236, 255);
+}
+nav ul li a::after{
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 0;
+    position: 3px;
+    background-color: black;
+    transition: 0.3s ease;
+}
+nav ul li a::hover::after{
+    width: 100%;
+}
+.btn{
+    color: white;
+    text-transform: uppercase;
+    background-color: pink;
+    padding: 10px 30px;
+    border-radius: 2em;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease;
+    border: 2px solid pink;
+}
+.btn:hover{
+    background: transparent;
+    color: pink;
+}
+.detail{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+.detail h1{
+    color:black;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.detail h1 span{
+    color: pink;
+}
+.detail p{
+    color: black;
+    font-size: 24px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.image img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.image{
+width: 40%;
+height: 85%;
+position: absolute;
+bottom: 0;
+right: 150px;
+}
+.socials{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    font-size: 28px;
+    color: white;
+    padding: 10px 30px;
+}
+.socials i{
+    padding: 2px;
+    transition: 0.3s ease;
+}
+.socials i:hover{
+    color: rgb(0, 174, 255)0, 187, 255);
+    background-color: white;
+    border-radius: 50%;
+}

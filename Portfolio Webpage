@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio Website</title>
+    
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <a href="http://www.Michele's Portfolio.com" > LINK </a>
+        <div class="hero">
+        <nav>
+        <p class="logo">Portfolio Webpage</p>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">My Projects</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <a href="#" class="btn"> Hire Me</a>
+        </nav> 
+     </div>
+     <div class="detail">
+        <h1> Hi! I'm <span>Michele</span></h1>
+
+        <h2> I'm located in South Florida</h2>
+        <p>Welcome to my portfolio website. Here you can learn a little about me and
+             see some of the projects I've done!</p>
+        <p> As a former Nurse, I enjoy working in fast paced environments with 
+            daily challenges centered around creative problem-solving and continuous innovation </p>
+        <p> Aside from Web Development I enjoy traveling, meeting new people, and spending time with my Golden 
+            Retriever, Kona!</p>
+             <a href="#" class="btn">Download Resume</a>
+     </div>
+     <div class="image">
+        <img src="NYC.jpeg" alt="">
+     </div>
+     <footer>
+        <div class="socials">
+            <i class='bx bx1-instagram-alt'></i>
+            <i class='bx bx1-linkedin-square' ></i>
+        </div>
+     </footer>
+
+</body>
+</html>
